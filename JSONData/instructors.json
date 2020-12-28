@@ -1,0 +1,17 @@
+[
+  {
+    "FirstName": "Richard",
+    "LastName": "Feynman",
+    "InstructorID": 1
+  },
+  {
+    "FirstName": "Nicholas",
+    "LastName": "Taleb",
+    "InstructorID": 2
+  },
+  {
+    "FirstName": "Linus",
+    "LastName": "Torvalds",
+    "InstructorID": 3
+  }
+]

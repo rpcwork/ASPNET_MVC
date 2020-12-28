@@ -1,0 +1,20 @@
+[
+  {
+    "InstructorID": 1,
+    "CourseID": "CS-101",
+    "ClassID": 1,
+    "DateTime": "Tue 2p"
+  },
+  {
+    "InstructorID": 2,
+    "CourseID": "CS-105",
+    "ClassID": 2,
+    "DateTime": "Wed 3p"
+  },
+  {
+    "InstructorID": 3,
+    "CourseID": "CS-173",
+    "ClassID": 3,
+    "DateTime": "Thu 1p"
+  }
+]

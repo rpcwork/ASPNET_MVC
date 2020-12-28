@@ -1,0 +1,118 @@
+﻿@model DeveloperTest.Models.Student
+
+@{
+    ViewBag.Title = "Add Classes to Student: " + ViewBag.Student.FirstName + " " + ViewBag.Student.LastName + " ID: " + ViewBag.Student.StudentID;
+}
+
+<h2>@ViewBag.Title</h2>
+
+
+
+    <div class="alert alert-success alert-dismissable hide" id="alertmsg" role="alert">
+        <strong>Success: </strong><span id="successmsg">.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+
+@using (Html.BeginForm("AddClassToStudent", "StudentClass", FormMethod.Post, new { id = "frmAddClasses" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <input type="hidden" name="StudentID" id="StudentID" value="@ViewBag.Student.StudentID" />
+
+        <div class="form-group">
+            @Html.Label("Class to Add", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("ClassID", (SelectList)ViewBag.classOptions, "-- Choose --", new { htmlAttributes = new { @class = "form-control" } })
+
+                <small></small>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="button" id="btnAddClass" value="Add Chosen Class to Student" class="btn btn-default" />
+
+            </div>
+
+
+        </div>
+        <div id="studentClassesGrid"></div>
+    </div>
+}
+
+
+@section Scripts {
+
+
+    <script>
+        $(document).ready(function () {
+            BuildStudentClassGrid();
+        });
+
+        $("#btnAddClass").click(function () {
+            var formdata = $('#frmAddClasses').serialize();
+            //formdata + "&StudentID=" +  @ViewBag.Student.StudentID;
+
+            $.ajax({
+                type: "POST",
+                url: "/StudentClass/AddClassToStudent",
+                dataType: "JSON",
+                data: formdata,
+                success: function (result) {
+                    BuildStudentClassGrid();
+                    $("#alertmsg").show();
+                    $("#successmsg").html(result.responseText);
+
+                },
+                error: function (xhr, status, p3, p4) {
+                    alert("Unable to add. Please try again later.");
+                }
+            });
+        });
+
+
+        function BuildStudentClassGrid() {
+               $("#studentClassesGrid").kendoGrid({
+                dataSource: {
+                    transport: {
+                        read: {
+                            url: "/StudentClass/GetStudentClasses/@ViewBag.Student.StudentID", dataType: "json", cache: false
+                        }
+                    },
+                    schema: {
+                        model: {
+                            fields: {
+                                CourseID: { type: "string" },
+                                CourseName: { type: "string" },
+                                InstructorName: { type: "string" },
+                                DayTime: { type: "string" }
+                            }
+                        }
+                    },
+                    pageSize: 20
+                },
+                height: 350,
+                scrollable: true,
+                sortable: true,
+                filterable: true,
+                pageable: {
+                    input: true,
+                    numeric: false
+                },
+                columns: [
+                    { field: "CourseID", title: "Course ID" },
+                    { field: "CourseName", title: "Course Name" },
+                    { field: "InstructorName", title: "Instructor" },
+                    { field: "DayTime", title: "Day & Time" }
+                ]
+            });
+        }
+    </script>
+}

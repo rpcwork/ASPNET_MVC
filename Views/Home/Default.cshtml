@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Home";
+}
+
+<h2>Miller Zell University</h2>
+
+
+@if (@TempData["msg"] != null)
+{
+    <div class="alert alert-success alert-dismissable show" role="alert">
+        <strong>Success: </strong>@TempData["msg"].
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+
+
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <hr />
+    Welcome to the Home of Miller Zell University. Please choose the navigation option below:
+    <br />
+    <ul class="">
+        <li>@Html.ActionLink("List Students", "ListStudents", "Student")</li>
+    </ul>
+</div>
+
+

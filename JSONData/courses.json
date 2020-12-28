@@ -1,0 +1,267 @@
+[
+	{
+		"CourseID": "CS-101",
+		"Name": "Intro Computing: Engrg &amp; Sci",
+		"Description": "Fundamental principles, concepts, and methods of computing, with emphasis on applications in the physical sciences and engineering. Basic problem solving and programming techniques; fundamental algorithms and data structures; use of computers in solving engineering and scientific problems. Intended for engineering and science majors. Prerequisite: MATH 220 or MATH 221."
+	},
+	{
+		"CourseID": "CS-105",
+		"Name": "Intro Computing: Non-Tech",
+		"Description": "Computing as an essential tool of academic and professional activities. Functions and interrelationships of computer system components: hardware, systems and applications software, and networks. Widely used application packages such as spreadsheets and databases. Concepts and practice of programming for the solution of simple problems in different application areas. Intended for non-science and non-engineering majors. Prerequisite: MATH 112."
+	},
+	{
+		"CourseID": "CS-125",
+		"Name": "Intro to Computer Science",
+		"Description": "Basic concepts in computing and fundamental techniques for solving computational problems. Intended as a first course for computer science majors and others with a deep interest in computing. Prerequisite: Three years of high school mathematics or MATH 112."
+	},
+	{
+		"CourseID": "CS-126",
+		"Name": "Software Design Studio",
+		"Description": "Fundamental principles and techniques of software development. Design, documentation, testing, and debugging software, with a significant emphasis on code review. Credit is not given for both CS 242 and CS 126. Prerequisite: CS 125. For majors only."
+	},
+	{
+		"CourseID": "CS-173",
+		"Name": "Discrete Structures",
+		"Description": "Discrete mathematical structures frequently encountered in the study of Computer Science. Sets, propositions, Boolean algebra, induction, recursion, relations, functions, and graphs. Credit is not given for both CS 173 and MATH 213. Prerequisite: One of CS 125, ECE 220; one of MATH 220, MATH 221."
+	},
+	{
+		"CourseID": "CS-210",
+		"Name": "Ethical &amp; Professional Issues",
+		"Description": "Ethics for the computing profession. Ethical decision-making; licensing; intellectual property, freedom of information, and privacy. Credit is not given for both CS 210 and ECE 316. Prerequisite: CS 225. Junior standing required."
+	},
+	{
+		"CourseID": "CS-225",
+		"Name": "Data Structures",
+		"Description": "Data abstractions: elementary data structures (lists, stacks, queues, and trees) and their implementation using an object-oriented programming language. Solutions to a variety of computational problems such as search on graphs and trees. Elementary analysis of algorithms. Prerequisite: CS 125 or ECE 220; CS 173 or MATH 213."
+	},
+	{
+		"CourseID": "CS-233",
+		"Name": "Computer Architecture",
+		"Description": "Fundamentals of computer architecture: digital logic design, working up from the logic gate level to understand the function of a simple computer; machine-level programming to understand implementation of high-level languages; performance models of modern computer architectures to enable performance optimization of software; hardware primitives for parallelism and security. Prerequisite: CS 125 and CS 173; credit or concurrent enrollment in CS 225."
+	},
+	{
+		"CourseID": "CPSC-213",
+		"Name": "Evolution in Action",
+		"Description": "Introduction to evolutionary theory. Examination of how domesticated species have evolved. Develops an appreciation of how agroecosystems influence evolution of adjacent natural ecosystems. Elucidation of evolutionary mechanisms necessary for agricultural species to adapt to global climate change."
+	},
+	{
+		"CourseID": "CPSC-215",
+		"Name": "The Prairie and Bioenergy",
+		"Description": "Designed for students who are interested in bioenergy and its production from prairie land. Instructors will provide information on the global trend of bioenergy production and consumption, importance of bioenergy, the role of Illinois prairie land in bioenergy production, potential U.S. bioenergy production, biofuels from plants, and socio-environmental benefits of bioenergy."
+	},
+	{
+		"CourseID": "CPSC-226",
+		"Name": "Introduction to Weed Science",
+		"Description": "Fundamentals of weed biology, ecology, and management. Emphasis is placed on basic principles and specific management strategies that are relevant to both crop and non-crop ecosystems. Includes a laboratory/discussion. Same as HORT 226. Prerequisite: CPSC 112 or HORT 100 or IB 103."
+	},
+	{
+		"CourseID": "CPSC-241",
+		"Name": "Intro to Applied Statistics",
+		"Description": "Introduces fundamental statistical procedures used to analyze and interpret data. General principles of descriptive and inferential statistics, measures of central tendency and dispersion, probability, correlation and regression, and tests of hypotheses are covered. An emphasis is placed on biological, environmental, and agricultural sciences, but numerous examples from other areas are discussed. Course content enhances students' ability to critically assess statistical information encountered in professional and every day activities. Credit is not given for both CPSC 241 and STAT 100 or ACE 261."
+	},
+	{
+		"CourseID": "CPSC-261",
+		"Name": "Biotechnology in Agriculture",
+		"Description": "Basic introduction to the techniques and application of biotechnology to a wide range of agricultural areas, and specific examples are given. May serve as either a terminal course explaining the techniques or as an introductory base for future studies. Same as HORT 261. Prerequisite: Any 100-level course in a biosciences discipline."
+	},
+	{
+		"CourseID": "CPSC-265",
+		"Name": "Genetic Engineering Lab",
+		"Description": "Laboratory/discussion course that provides a hands-on introduction to the techniques and principles of genetic engineering, recombinant DNA and the impact of molecular genetics on society. Students will isolate DNA from plants and clone specific genes into bacterial plasmids, perform polymerase chain reactions, DNA restriction analysis and DNA blotting, and discuss the relevance of these techniques to both medicine and agriculture. Prerequisite: A general biology course."
+	},
+	{
+		"CourseID": "CPSC-266",
+		"Name": "Data in Biology and Agriculture",
+		"Description": "This course focuses on the use of computing and data analysis to solve problems in biology and agriculture and includes an overview of computer methods and limitations of current computer, network and storage hardware for big data sets. The nature, use and future potential of different types of computer hardware and software in biology and agriculture (e.g. mobile applications, high performance computing, wireless networking) will be discussed. Examples of computing-related and computing-limited problems in biology and agriculture, such as image analysis, remote sensing and genetic analysis will be used as case studies. The potential of computing to improve the food system, medicine and other applications will be presented."
+	},
+	{
+		"CourseID": "ACCY-200",
+		"Name": "Fundamentals of Accounting",
+		"Description": "Survey course in the principles of accounting for students registered in schools and colleges other than the College of Business. Credit is not given for both ACCY 200 and either ACCY 201 or ACCY 202. Prerequisite: Sophomore standing."
+	},
+	{
+		"CourseID": "ACCY-201",
+		"Name": "Accounting and Accountancy I",
+		"Description": "Introduction to the role of accounting information in establishing organization objectives and goals and identification of strategies to best achieve such objectives and goals. Topics focus on the utility of information necessary for the formation, execution and monitoring of the variety of contracts embedded in organization strategies. Projects facilitate self-discovery of knowledge and development of a variety of professional skills and attitudes. Credit is not given for both ACCY 201 and ACCY 200. Prerequisite: Prior to enrollment in ACCY 201, students must: 1) have completed either ECON 102 or ECON 103; AND 2) have completed or be concurrently enrolled in the remaining ECON 102 or ECON 103 course."
+	},
+	{
+		"CourseID": "ACCY-202",
+		"Name": "Accounting and Accountancy II",
+		"Description": "Continuation of ACCY 201 with focus on strategic management of economic resources, together with acquisition of such resources, and financial and non-financial measures of organizational performance. Credit is not given for both ACCY 202 and ACCY 200. Prerequisite: ACCY 201 or equivalent."
+	},
+	{
+		"CourseID": "ACCY-211",
+		"Name": "Understanding Financial Statements",
+		"Description": "Provides a basic understanding of financial statements. Topics include financial statement components and their meaning, the broader purpose of financial statements, and the role of accounting in producing financial statements. Emphasizes the ability to read and, to some extent, interpret real-world financial statements. Credit is not given for ACCY 211 if credit has been given for ACCY 200, ACCY 201, and/or ACCY 202. ACCY 211 does not count toward undergraduate degree requirements for degrees offered through the College of Business or toward the Business Minor. Prerequisite: Intended for non-business majors."
+	},
+	{
+		"CourseID": "ACCY-212",
+		"Name": "Understanding Accounting for Business Decisions",
+		"Description": "This course provides a fundamental understanding of how accounting facilitates and influences decisions made by owners, managers, and employees within an organization. Accounting provides information for all types of decisions, ranging from everyday operational and procedural decisions to decisions about the long-term strategy and direction of the firm. Course topics include pricing, product selection, resource planning and allocation, and operational and strategic performance measurement. Credit is not given for ACCY 212 if credit has been given for ACCY 200, ACCY 201, and/or ACCY 202. ACCY 212 does not count toward undergraduate degree requirements for degrees offered through the College of Business or toward the Business Minor. Prerequisite: Intended for non-business majors."
+	},
+	{
+		"CourseID": "ACCY-290",
+		"Name": "Prof Internship in Accountancy",
+		"Description": "Formalized learning experience in combination with practice of accounting while engaged in an internship with a public accounting firm, business, or other off-campus organization; prior approval of learning plan and a summary report of learning experience are required. Approved for Letter and S/U grading. May be repeated in subsequent terms to a maximum of 3 hours. Prerequisite: Open to Department of Accountancy students; completion of ACCY 201 and ACCY 202 (or equivalent); and consent of department."
+	},
+	{
+		"CourseID": "ACCY-301",
+		"Name": "Atg Measurement &amp; Disclosure",
+		"Description": "Introduction to measurement and reporting of organizational performance for strategic and operational purposes with a focus on a variety of financial and non-financial performance measures suitable for both internal and external decision-making. Projects, together with a series of practical workshops, facilitate self-discovery of knowledge and development of a variety of professional skills and attitudes. Prerequisite: ACCY 202 or equivalent and recommend concurrent enrollment in ACCY 302 for Accountancy majors."
+	},
+	{
+		"CourseID": "ACCY-302",
+		"Name": "Decision Making for Atg",
+		"Description": "Decision making implications of information provided to organization managers and to external stakeholders such as investors, creditors, customers, and regulators. Concepts from economics, statistics, and psychology emphasize the use of quantitative techniques to comprehend uncertainty and risk. Projects, together with a series of practical workshops, facilitate self-discovery of knowledge and development of a variety of professional skills and attitudes. Prerequisite: ACCY 202 or equivalent; BADM 210 or concurrent enrollment; and recommend concurrent enrollment in ACCY 301 for Accountancy majors."
+	},
+	{
+		"CourseID": "ACCY-303",
+		"Name": "Accounting Institutions and Regulation",
+		"Description": "Regulation theory and practice as applied to accounting information. A general framework for regulation of accounting procedures is developed. This framework is applied to reporting, taxation, and regulated business activities. Projects facilitate self-discovery of knowledge and the development of professional attitudes and skills with emphasis on professional research. Prerequisite: ACCY 301 and FIN 221."
+	},
+	{
+		"CourseID": "ARCH-101",
+		"Name": "Introduction to Architecture",
+		"Description": "An introduction to architecture, architectural education and the profession with emphasis on issues that influence architecture and the people and processes involved."
+	},
+	{
+		"CourseID": "ARCH-164",
+		"Name": "Architecture as a Second Language",
+		"Description": "The conceptual toolbox used by architects, and the tools in it, are unique and used by architects in both expected and unexpected situations. These tools can be thought of as a second language. Architecture as a Second Language is a hands-on, experiential online course that immerses students in challenging activities similar to those architects face. The course helps develop new perspectives, capabilities, and insights that can be applied to any calling or discipline."
+	},
+	{
+		"CourseID": "ARCH-171",
+		"Name": "Concepts and Theories of Architectural Design",
+		"Description": "This course introduces basic theories of architecture. It creates awareness of design concepts. Course content is arranged in three topical areas: Architecture and People, Architecture and Place, and Making Architecture. Each topical area addresses roles of designers and architects in contemporary and historical perspectives."
+	},
+	{
+		"CourseID": "ARCH-172",
+		"Name": "Drawing and Modeling",
+		"Description": "Introduction to the architectural graphic communication skills that architects use to visualize, analyze, and record creative thoughts: freehand sketching, architectural delineation, and digital applications."
+	},
+	{
+		"CourseID": "ARTE-401",
+		"Name": "Teaching Seminar",
+		"Description": "Examines responsibilities, methods, and techniques specific to teaching art in elementary and secondary schools; includes the psychology of the exceptional child in conjunction with methods of instruction and student teaching experience. 4 undergraduate hours. 4 graduate hours. Prerequisite: ARTE 302; concurrent registration in EDPR 438 and EDPR 442, art education sections only."
+	},
+	{
+		"CourseID": "ARTE-402",
+		"Name": "Artistic Development",
+		"Description": "Historical and contemporary perspectives on children's artistic development, emphasizing relationships between general intellectual growth and the ability to create and respond to works of art. Additional fees may apply. See Class Schedule. 3 undergraduate hours. 3 or 4 graduate hours. Prerequisite: Junior standing, and PSYC 100 and EPSY 201."
+	},
+	{
+		"CourseID": "ARTE-475",
+		"Name": "Art Exhibition Practices",
+		"Description": "Explores issues pertaining to the preparation, installation and conservation of visual art. Students will learn how to organize, design, spot and install an exhibition; develop exhibition graphics; address conservation issues; handle works of art; and learn the business of art. Field trips and guest lectures by conservators, preparators, curators and exhibition designers will add further depth to the class. Additional fees may apply. See Class Schedule. 3 undergraduate hours. 4 graduate hours. May be repeated in separate terms to a maximum of 6 undergraduate hours or 8 graduate hours. Prerequisite: Junior standing in Art and Design."
+	},
+	{
+		"CourseID": "ARTE-480",
+		"Name": "Popular Visual Culture",
+		"Description": "Focuses primarily on contemporary popular culture, but also draws upon fine art, folk art, and indigenous art from both the past and the present. Considers the often troubled relationships between the pleasures of visual culture and its ideologies. Students examine the literature of visual culture studies and develop research skills by examining a specific site of visual culture of their own choosing in terms of aesthetic pleasures and ideology including but not limited to sexism, class, ethnicity, religion, homophobia, and xenophobia. Theories of the body, consumerism, and globalization, among others will be considered. Additional fees may apply. See Class Schedule. 3 undergraduate hours. 4 graduate hours. May be repeated in separate terms to a maximum of 6 undergraduate hours or 8 graduate hours."
+	},
+	{
+		"CourseID": "ARTE-490",
+		"Name": "Senior Honors",
+		"Description": "Independent guided research and study for honors. Additional fees may apply. See Class Schedule. 2 to 5 undergraduate hours. No graduate credit. May be repeated to a maximum of 5 hours. Prerequisite: Senior standing in art education, a cumulative grade point average of 3.0; and consent of instructor, advisor, and associate director of the School."
+	},
+	{
+		"CourseID": "GEOG-101",
+		"Name": "Global Development&amp;Environment",
+		"Description": "Introduces geographical perspectives on environment and development studies with case studies drawn from Africa, Asia, and Latin America. Investigates the origins of the global South in relation to the global North, especially the historical and contemporary processes driving environmental, economic, and cultural change."
+	},
+	{
+		"CourseID": "GEOG-103",
+		"Name": "Earth's Physical Systems",
+		"Description": "A basic introduction to the environmental systems of the Earth's surface, including landforms, soils, and ecosystems and how these systems are affected by global change. Emphasizes the importance of human-Earth relations and a holistic view of environmental systems. Same as ESE 103."
+	},
+	{
+		"CourseID": "GEOG-104",
+		"Name": "Social and Cultural Geography",
+		"Description": "Introduces the basic concepts of social and cultural geography, and the application of these concepts to a variety of topics; mental maps, territoriality, cultural regions, cultural elements and their diffusion, population movement and migration, settlement patterns, environmental hazards, and spatial patterns of social problems."
+	},
+	{
+		"CourseID": "GEOG-105",
+		"Name": "The Digital Earth",
+		"Description": "Geospatial technologies such as global positioning systems (GPS) and geographic information systems (GIS) are becoming increasingly important tools in research and policy arenas and in everyday life. This course will provide an introduction to these emerging technologies and to the principles of mapping science that underpin them. At the same time, the course will explore how these innovative technologies are changing the spaces and places around us, including how we interact with the environment and each other. Lab exercises provide hands-on experience in collecting and mapping geospatial information, interpreting digital imagery and the Earth's environments, and critically thinking about the social implications of the digital Earth."
+	},
+	{
+		"CourseID": "GEOG-106",
+		"Name": "Geographies of Globalization",
+		"Description": "A survey of major world regions by systematically considering five themes: environment, population and settlement patterns, cultural coherence and diversity, geopolitical fragmentation and unity, and economic and social development. While examining the persistence of unique regions, the course will both scale up to global linkages and scale down to place-specific impacts of globalization processes. Same as ESE 106."
+	},
+	{
+		"CourseID": "LAW-653",
+		"Name": "International Business Trans",
+		"Description": "Doing business abroad: export-import regulations, use of foreign commission merchants, licensing of patents and know-how, investment and exchange problems, establishing a foreign operation (including forms of business organization available abroad), and application of United States and foreign antitrust law to the business operation. 4 graduate hours. 3 professional hours."
+	},
+	{
+		"CourseID": "LAW-654",
+		"Name": "International Trade Policy",
+		"Description": "Analysis of the regulation of trade between nations by international agreement (e.g., the GATT), by multinational organizations (e.g., the European Communities), and by individual countries; emphasizes U.S. import restraints, export controls, and related laws. 4 graduate hours. 3 professional hours."
+	},
+	{
+		"CourseID": "LAW-655",
+		"Name": "European Union Law",
+		"Description": "Intensive study of the European Common Market, particularly of its laws relating to trade barriers, establishment of companies, and antitrust; and United States legislation in the field of international trade. 2 to 4 graduate hours. 2 to 3 professional hours."
+	},
+	{
+		"CourseID": "LAW-656",
+		"Name": "International Law",
+		"Description": "The nature, sources, and subjects of international law and its place in the control of international society; includes an examination of the law of jurisdiction, territory, recognition and succession of states, rights and immunities of states in foreign courts, diplomatic immunities, treaties, protection of citizens abroad, settlement of international disputes, war and neutrality, the United Nations, and the International Court of Justice. 4 graduate hours. 3 professional hours."
+	},
+	{
+		"CourseID": "LAW-657",
+		"Name": "International Human Rights Law",
+		"Description": "Studies established and developing legal rules and procedures governing the protection of international human rights, including Marxist and Third World, as well as Western, conceptions of those rights. 4 graduate hours. 3 professional hours."
+	},
+	{
+		"CourseID": "MATH-482",
+		"Name": "Linear Programming",
+		"Description": "Rigorous introduction to a wide range of topics in optimization, including a thorough treatment of basic ideas of linear programming, with additional topics drawn from numerical considerations, linear complementarity, integer programming and networks, polyhedral methods. 3 or 4 undergraduate hours. 3 or 4 graduate hours. 4 hours of credit requires approval of the instructor and department with completion of additional work of substance. Prerequisite: MATH 410, MATH 415, or MATH 416."
+	},
+	{
+		"CourseID": "MATH-484",
+		"Name": "Nonlinear Programming",
+		"Description": "Iterative and analytical solutions of constrained and unconstrained problems of optimization; gradient and conjugate gradient solution methods; Newton's method, Lagrange multipliers, duality and the Kuhn-Tucker theorem; and quadratic, convex, and geometric programming. 3 or 4 undergraduate hours. 3 or 4 graduate hours. 4 hours of credit requires approval of the instructor and department with completion of additional work of substance. Prerequisite: MATH 241; MATH 347 or MATH 348; or equivalent; MATH 415 or equivalent; or consent of instructor."
+	},
+	{
+		"CourseID": "MATH-487",
+		"Name": "Advanced Engineering Math",
+		"Description": "Complex linear algebra, inner product spaces, Fourier transforms and analysis of boundary value problems, Sturm-Liouville theory. Same as ECE 493. 3 undergraduate hours. 3 or 4 graduate hours. Prerequisite: One of MATH 284, MATH 285, MATH 286, MATH 441."
+	},
+	{
+		"CourseID": "MATH-489",
+		"Name": "Dynamics &amp; Differential Eqns",
+		"Description": "Studies mathematical theory of dynamical systems, emphasizing both discrete-time dynamics and nonlinear systems of differential equations. Topics include: chaos, fractals, attractors, bifurcations, with application to areas such as population biology, fluid dynamics and classical physics. Basic knowledge of matrix theory will be assumed. 3 or 4 undergraduate hours. 3 or 4 graduate hours. 4 hours of credit requires approval of the instructor and completion of additional work of substance. Prerequisite: One of MATH 284, MATH 285, MATH 286, MATH 441."
+	},
+	{
+		"CourseID": "MATH-490",
+		"Name": "Advanced Topics in Mathematics",
+		"Description": "Deals with selected topics and applications of mathematics; see Class Schedule or department office for current topics. 1 to 4 undergraduate hours. 1 to 4 graduate hours. May be repeated with approval. Prerequisite: Consent of instructor."
+	},
+	{
+		"CourseID": "MATH-492",
+		"Name": "Undergraduate Research in Math",
+		"Description": "Work closely with department faculty on a well-defined research project. Topics and nature of assistance vary. Capstone paper or computational project required. 1 to 3 undergraduate hours. No graduate credit. Approved for Letter and S/U grading. May be repeated in separate terms up to 8 hours. Prerequisite: Evidence of adequate preparation for such study; consent of faculty member supervising the work; and approval of the department head."
+	},
+	{
+		"CourseID": "PHYS-211",
+		"Name": "University Physics: Mechanics",
+		"Description": "Newton's Laws, work and energy, static properties and fluids, oscillations, transverse waves, systems of particles, and rotations. A calculus-based approach for majors in engineering, mathematics, physics and chemistry. Credit is not given for both PHYS 211 and PHYS 101. Prerequisite: Credit or concurrent registration in MATH 231."
+	},
+	{
+		"CourseID": "PHYS-212",
+		"Name": "University Physics: Elec &amp; Mag",
+		"Description": "Coulomb's Law, electric fields, Gauss' Law, electric potential, capacitance, circuits, magnetic forces and fields, Ampere's law, induction, electromagnetic waves, polarization, and geometrical optics. A calculus-based approach for majors in engineering, mathematics, physics, and chemistry. Credit is not given for both PHYS 212 and PHYS 102. Prerequisite: PHYS 211; credit or concurrent registration in MATH 241."
+	},
+	{
+		"CourseID": "PHYS-213",
+		"Name": "Univ Physics: Thermal Physics",
+		"Description": "First and second laws of thermodynamics including kinetic theory of gases, heat capacity, heat engines, introduction to entropy and statistical mechanics, and introduction to application of free energy and Boltzmann factor. A calculus-based approach for majors in engineering, mathematics, physics and chemistry. Credit is not given for both PHYS 213 and PHYS 101. Prerequisite: PHYS 211; credit or concurrent registration in MATH 241."
+	},
+	{
+		"CourseID": "PHYS-214",
+		"Name": "Univ Physics: Quantum Physics",
+		"Description": "Interference and diffraction, photons and matter waves, the Bohr atom, uncertainty principle, and wave mechanics. A calculus-based course for majors in engineering, mathematics, physics, and chemistry. Credit is not given for both PHYS 214 and PHYS 102. Prerequisite: PHYS 212."
+	}
+]

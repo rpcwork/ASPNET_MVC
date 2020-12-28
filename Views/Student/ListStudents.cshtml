@@ -1,0 +1,108 @@
+﻿@model DeveloperTest.Models.Student
+
+@{
+    ViewBag.Title = "ListStudents";
+}
+
+<h2>Students</h2>
+
+
+@if (@TempData["msg"] != null)
+{
+    <div class="alert alert-success alert-dismissable show" role="alert">
+        <strong>Success: </strong>@TempData["msg"].
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+
+@using (Html.BeginForm("CreateStudent", "Student", FormMethod.Post, new
+{
+    enctype = "multipart/form-data"
+}))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.FirstName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control" } })
+                <small>@Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })</small>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.LastName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control" } })
+                <small>@Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })</small>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.StudentID, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.StudentID, new { htmlAttributes = new { @class = "form-control" } })
+                <small>@Html.ValidationMessageFor(model => model.StudentID, "", new { @class = "text-danger" })</small>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Add Student" class="btn btn-default" />
+
+            </div>
+
+
+        </div>
+        <div id="studentGrid"></div>
+    </div>
+}
+
+
+@section Scripts {
+
+
+    <script>
+        $(document).ready(function () {
+
+            $("#studentGrid").kendoGrid({
+                dataSource: {
+                    transport: {
+                        read: {
+                            url: "../../JSONData/students.json", dataType: "json", cache: false
+                        }
+                    },
+                    schema: {
+                        model: {
+                            fields: {
+                                FirstName: { type: "string" },
+                                LastName: { type: "string" },
+                                StudentID: { type: "number" }
+                            }
+                        }
+                    },
+                    pageSize: 20
+                },
+                height: 550,
+                scrollable: true,
+                sortable: true,
+                filterable: true,
+                pageable: {
+                    input: true,
+                    numeric: false
+                },
+                columns: [
+                    {
+                        field: "StudentID", title: "Student ID", template: '<a href="/StudentClass/ListStudentClasses/#= StudentID#">#= StudentID#</a>' },
+                    { field: "FirstName", title: "First Name" },
+                    { field: "LastName", title: "Last Name" }
+                ]
+            });
+        });
+    </script>
+}
